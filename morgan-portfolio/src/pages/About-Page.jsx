@@ -1,5 +1,12 @@
+import Header from "../intro/Header";
+
 function About() {
-  return <p>Breathe, relax, and know that you are okay</p>;
+  return (
+    <>
+      <Header />
+      <p>Breathe, relax, and know that you are okay</p>
+    </>
+  );
 }
 
-export default About
+export default About;
